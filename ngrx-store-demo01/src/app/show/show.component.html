@@ -1,0 +1,10 @@
+<div>
+  <ng-container *ngFor="let item of users | async">
+      <tbody>
+        <tr>
+          <td>{{item.name}}</td>
+          <td>{{item.number}}</td>
+        </tr>
+      </tbody>
+  </ng-container>
+</div>

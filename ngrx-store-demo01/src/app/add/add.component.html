@@ -1,0 +1,13 @@
+<div class="name">
+  <label for="">姓名</label>
+  <input #name type="text">
+</div>
+<div class="number">
+  <label for="">编号</label>
+  <input #number type="text">
+</div>
+
+
+<div class="add">
+  <button mat-button (click)="add(name.value, number.value)">ADD</button>
+</div>
